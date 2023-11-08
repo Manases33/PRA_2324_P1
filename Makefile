@@ -1,6 +1,6 @@
-bin/testListArray: testListArray.cpp ListArray.h List.h
+bin/TestListArray: TestListArray.cpp ListArray.h List.h
 	mkdir -p bin
-	g++ -o bin/testListArray testListArray.cpp ListArray.h
+	g++ -o bin/TestListArray TestListArray.cpp ListArray.h
 
 bin/testNode: testNode.cpp Node.h
 	mkdir -p bin
